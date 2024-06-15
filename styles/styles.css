@@ -1,0 +1,48 @@
+nav {
+    background-color: steelblue;
+    padding:  10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+h1 {
+    color: steelblue;
+}
+img {
+    width: 150px;
+    height:auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+p {
+    padding: 0;
+}
+main {
+    max-width: 840 px;
+}
+aside{
+    width: 20 rem;
+    margin: 1 rem;
+    border: 1px solid rgba(1, 1, 1, 1.2);
+    padding: 1 rem;
+    background-color:  hsl(59, 70%, 50%);
+    color: #050806;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+main img {
+    width: 150 px;
+    height: auto;
+
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}

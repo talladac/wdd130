@@ -19,10 +19,41 @@ body {
     --nav-hover-background-color: #140c07;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
+    font-size: 40px;
+
+} 
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
+
+table {
+    border-style: groove;
+    width: 100%;
+    color:red
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border:groove ;
+}
+
+tr :nth-child(1) {
+    background-color: #050302;}
+    
+tr :nth-child(2) {
+    background-color: #AAE2B4;}
+
+tr :nth-child(3) {
+    background-color: #CAF2EA;}
+
+tr :nth-child(4) {
+    background-color: #EEF4D4;}
 
 header {
     padding: 20px;

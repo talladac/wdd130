@@ -5,7 +5,7 @@ body {
     padding: 20px;
 }
 :root {
-    --primary-color: #050302;
+    --primary-color: #050001;
     --secondary-color: #AAE2B4;
     --accent1-color: #CAF2EA;
     --accent2-color: #EEF4D4;
@@ -44,7 +44,7 @@ th, td {
 }
 
 tr :nth-child(1) {
-    background-color: #050302;}
+    background-color: #050001;}
     
 tr :nth-child(2) {
     background-color: #AAE2B4;}

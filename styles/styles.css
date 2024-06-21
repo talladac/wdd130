@@ -22,13 +22,13 @@ p {
     padding: 0;
 }
 main {
-    max-width: 840 px;
+    max-width: 840px;
 }
 aside{
-    width: 20 rem;
-    margin: 1 rem;
+    width: 20rem;
+    margin: 1rem;
     border: 1px solid rgba(1, 1, 1, 1.2);
-    padding: 1 rem;
+    padding: 1rem;
     background-color:  hsl(59, 70%, 50%);
     color: #050806;
 }
@@ -37,7 +37,7 @@ aside img {
     height: auto;
 }
 main img {
-    width: 150 px;
+    width: 150px;
     height: auto;
 
 }

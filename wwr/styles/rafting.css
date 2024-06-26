@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --primary-color: #550764b6;
+    --secondary-color: #AAE2B4;
+    --accent1-color: #CAF2EA;
+    --accent2-color: #EEF4D4;
+
+    --heading-font: '________', Roboto;
+    --paragraph-font: '_______', merriweather;
+
+    --nav-background-color: #0EF5CF;
+    --nav-link-color: #050001;
+    --nav-hover-link-color: #14ecec;
+    --nav-hover-background-color: #140c07;
+}
+
+body {
+    font-family: var(--heading-font);
+    color: aqua;
+    font-size: large;
+}
+
+h1 {
+    font-family: var(--heading-font) ;
+    color:var(--primary-color) ;
+    font-size: large;
+}

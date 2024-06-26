@@ -20,12 +20,11 @@ body {
 }
 
 h1 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+    
     font-size: 40px;
 
 } 
-
+h1
 h2
 h3
 h4

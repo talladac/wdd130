@@ -1,28 +1,73 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-    --primary-color: #550764b6;
+    --primary-color: #080308b6;
     --secondary-color: #AAE2B4;
     --accent1-color: #CAF2EA;
     --accent2-color: #EEF4D4;
 
     --heading-font: '________', Roboto;
-    --paragraph-font: '_______', merriweather;
+    
 
     --nav-background-color: #0EF5CF;
     --nav-link-color: #050001;
     --nav-hover-link-color: #14ecec;
     --nav-hover-background-color: #140c07;
 }
-
-body {
-    font-family: var(--heading-font);
-    color: aqua;
-    font-size: large;
-}
-
+/* heading font styles */
 h1 {
     font-family: var(--heading-font) ;
     color:var(--primary-color) ;
-    font-size: large;
+    font-size: 100px;
+    position: absolute;
+    background-color: rgb(255 255 255 / 0.5);
+    top: 250px;
+    left: 200px;
+    padding: 30px;
+
 }
+/* article paragraph */
+article p {
+    font-family: var(--heading-font);
+    color:var(--primary-color) ;
+    font-size:50px ;
+    position: absolute;
+    bottom: 350px;
+    left: -300px;
+    background-color: rgba(209, 195, 248, 0.5);
+    padding: 100px;
+    margin: 300px;
+}
+h2 {
+    font-family: Roboto;
+    color: var(--primary-color);
+}
+/* styles for the links */
+a {
+    text-decoration: none;
+
+}
+
+/* styles for the images in hero */
+
+.hero img {
+    display: block;
+    position: relative;
+    margin: 100px;
+    
+    
+}
+
+/* styles for the articleimage */
+article img {
+    float: right ;
+    position: absolute;
+    top: -400px;
+    right: 300px;
+    width: 400px;
+  
+}
+body {
+    max-width: fit-content;
+}
+

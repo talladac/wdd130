@@ -10,8 +10,8 @@ body {
     --accent1-color: #CAF2EA;
     --accent2-color: #EEF4D4;
 
-    --heading-font: '________', dancing script;
-    --paragraph-font: '_______', merriweather;
+    --heading-font: dancing script;
+    --paragraph-font: merriweather;
 
     --nav-background-color: #0EF5CF;
     --nav-link-color: #050001;
@@ -26,7 +26,7 @@ h1 {
 
 } 
 
-h2, h3, h4, h5, h6 {
+h2 h3 h4 h5 h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }

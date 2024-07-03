@@ -10,25 +10,53 @@
     --heading-font: 1rem;
     }
 
+
+/* Styles for the body */
+/* Header Styles */
+header, img nav {
+    margin: 1rem auto;
+	display: grid;
+    justify-content: space-evenly;
+	grid-template-columns: 120px 1fr 
+}
+
+nav {
+    display: flex; 
+    align-items: center;
+    font-size: 30px;
+    margin: 50px;
+    margin-left: 90px;
+    box-decoration-break: slice;
+    justify-content: space-evenly; 
+}
+
+header {
+    border-style: ridge;
+    background-color: #CAF2EA;
+}
+
+div {
+    border-style: ridge;
+}
+
 .hero img :first-child{
     display: block;
-    width: 50%;
-    height: auto;
     position: relative;
-    margin: auto;
+    margin-left: 10px;
+    width: fit-content;
 }
 
 article img {
     float: right;
     padding: 10px;
-    background-color: rgba(179, 243, 159, 0.8);
+    background-color: rgba(238, 240, 231, 0.9);
     text-align: right;
     position: absolute;
-    right: 900px;
-    top: 300px;
-    padding-left: 1000px;
-    
-
+    top: 400px;
+    padding-left: 1300px;
+    padding-right: 0px;
+    left: 80px;
+    border: ridge;
 }
 
 
@@ -36,10 +64,13 @@ h1 {
     font: var(--heading-font);
     font-size: 3rem;
     text-align: center;
-    background-color: rgba(246, 247, 206, 0.6);
+    background-color: rgba(246, 247, 206, 0.9);
     top: 200px;
-    right: 1200px;  
+    left: 1px;
     position: absolute;
+    padding-left: 590px;
+    padding-right: 590px;
+    
 }
 
 article p {
@@ -47,22 +78,62 @@ article p {
     position: absolute;
     background-color: rgba(226, 66, 66, 0);
     font-size: 2rem;
-    padding-right: 1200px;
-    margin-left: 200px;
-    top: 300px;
+    padding-right: 100px;
+    margin-left: 100px;
+    top: 430px;
     color: rgb(8, 8, 8);
 }
-
 a {
     text-decoration: none;
 }
 
+
+/* Section Styles */
+section {
+    border: ridge;
+    margin-top: 20px;
+}
+section img {
+    position: ;
+    display: flex;
+    flex-flow: row;
+    border: ridge;
+    width: auto;
+    justify-content: space-evenly;
+    
+
+}
+
+
+
 h2 {
     font: var(--heading-font);
     font-size: 3rem;
-    color: rgb(112, 67, 7);
+    color: rgb(7, 6, 5);
+    text-align: center;  
 }
 
-footer img {
-    width: 1%;
+
+/* Footer Styles */
+footer {
+    border: ridge;
+    
 }
+
+footer p {
+    text-align: center;
+    font-size: 30px;
+ 
+}
+footer img {
+    position: relative;
+    bottom: 100px;
+    right: 500px;
+}
+.sociallinks {
+    justify-content: right;
+    
+    
+    
+}
+

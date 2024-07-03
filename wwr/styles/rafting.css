@@ -104,14 +104,13 @@ section {
 } */
 
 section figure {
-    display: flex;
-    flex-flow: row; 
+    display: inline-block;
+    
+    
   }
 
   figcaption {
-    position: relative;
-    top: 430px;
-    right: 400px;
+    text-align: center;
     
     
   }

@@ -91,20 +91,31 @@ a {
 /* Section Styles */
 section {
     border: ridge;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 100px;
 }
-section img {
+/* section img {
     
     position: relative;
     display: flex;
     flex-flow: row;
     width: auto;
-   
+} */
 
+figure {
+    display: flex;
+    flex-flow: row;
+    
+  }
 
-}
-
-
+  figcaption {
+    position: relative;
+    top: 430px;
+    right: 400px;
+    
+    
+  }
 
 h2 {
     font: var(--heading-font);

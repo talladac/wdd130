@@ -94,13 +94,13 @@ section {
     margin-top: 20px;
 }
 section img {
-    position: ;
+    
+    position: relative;
     display: flex;
     flex-flow: row;
-    border: ridge;
     width: auto;
-    justify-content: space-evenly;
-    
+   
+
 
 }
 
@@ -128,7 +128,7 @@ footer p {
 footer img {
     position: relative;
     bottom: 100px;
-    right: 500px;
+    right: 200px;
 }
 .sociallinks {
     justify-content: right;

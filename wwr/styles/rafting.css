@@ -103,10 +103,9 @@ section {
     width: auto;
 } */
 
-figure {
+section figure {
     display: flex;
-    flex-flow: row;
-    
+    flex-flow: row; 
   }
 
   figcaption {
@@ -121,7 +120,8 @@ h2 {
     font: var(--heading-font);
     font-size: 3rem;
     color: rgb(7, 6, 5);
-    text-align: center;  
+    text-align: center; 
+    
 }
 
 

@@ -32,8 +32,10 @@ img {
     box-shadow: 0 0 30px rgb(101, 117, 29);
     
 }
-p {
+main p {
     padding: 20px;
+    text-align: justify;
+    margin-right: 150px;
 }
 
 aside{
@@ -82,8 +84,8 @@ aside {
     width: 20rem;
     text-align: center;
     position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    grid-column: 1;
+    grid-row: 1
 }
 aside h2 {
     position: absolute;
@@ -91,7 +93,7 @@ aside h2 {
     left: 90px;
 }
 
-header, footer, .grid {
+header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -102,6 +104,6 @@ header, footer, .grid {
 }
 
 main {
-    grid-column: 2/3;
+    grid-column: 2;
     margin: 1rem;
 }

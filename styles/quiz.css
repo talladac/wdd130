@@ -65,7 +65,7 @@ textarea {
     cursor: pointer;
 }
 
-select {
+.q3 {
     width: 100px;
     height:30px;
     background-color: rgb(149, 164, 247);

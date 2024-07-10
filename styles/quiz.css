@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    background: gray;
+    
+}
+
+h1 {
+   
+    text-align: center;
+    justify-self: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+    color: rgb(248, 246, 246); 
+  
+}
+
+.box {
+    border-radius: 5px;
+    border: ridge ;
+    background-color:  rgba(4, 77, 235, 0.5);
+    box-shadow: 0 0 10px 2px  ;
+   
+}
+.app {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px 2px  ;
+
+}
+
+.app {
+    color: rgb(1, 1, 10);
+    
+    text-align: left;
+    padding: 50px; 
+    font-size: 20px
+}
+
+.qstn {
+    padding: 100px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+textarea {
+    width: 80%;
+    padding: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select {
+    width: 100px;
+    height:30px;
+    background-color: rgb(149, 164, 247);
+    color: rgb(8, 9, 10);
+    cursor: pointer;
+    
+}
+
+.container {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: rgb(25, 25, 241);
+    padding: 5px 0px 5px;
+    cursor: pointer;
+
+    
+}

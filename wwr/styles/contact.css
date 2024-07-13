@@ -1,0 +1,105 @@
+ @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+);
+ body {
+   display: block;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+
+main {
+
+    max-width: 900px;
+    padding-top: 200px;
+    background-color: aliceblue;
+    justify-items: left;
+    border: ridge;
+    padding: 200px 20px 200px;
+
+    
+
+}
+header {
+    display: flex;
+    position: absolute;
+    margin: 30px;
+    
+   
+}
+
+nav{
+   
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 20px ;
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(63, 59, 53);
+    margin: 0px;
+    text-align: left;
+    
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    margin: 0px;
+   
+}
+
+div {
+    display: flex;
+    align-items: baseline;
+    padding: 1px 5px 1px;
+    border: .5px solid #333;
+    border-radius: 5px;
+    gap: 2px;
+    background-color: azure;
+    
+}
+
+.map {
+    width: 10px;
+    height: auto;  
+    
+}
+
+
+figure {
+    display: inline;
+    
+    
+}
+figcaption { 
+    display: inline-flex;
+    
+}
+.form{
+    
+    align-items: center;
+    align-content: center;
+    background-color: rgb(157, 187, 201);
+    margin: 10px 160px 10px ;
+ 
+    
+}
+button {
+    
+    background: rgb(103, 100, 245);
+    color: aliceblue;
+    padding: 10px ;
+    
+
+} 
+

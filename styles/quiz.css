@@ -27,6 +27,11 @@ h1 {
     box-shadow: 0 0 10px 2px  ;
    
 }
+
+
+th + td{
+    display: auto;
+}
 .app {
     background: white;
     width: 90%;

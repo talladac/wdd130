@@ -1,62 +1,168 @@
- @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
 );
- body {
-   display: block;
-    margin: auto;
-    justify-content: center;
-    align-content: center;
+
+
+
+
+:root {
+    --primary-color: #080308b6;
+    --secondary-color: #AAE2B4;
+    --accent1-color: #CAF2EA;
+    --accent2-color: #EEF4D4;
+
+    --heading-font: '________', Roboto;
+    --heading-font: 1rem;
+    }
+
+
+/* Styles for the body */
+/* Header Styles */
+header, img nav {
+    margin: 1rem auto;
+	display: grid;
+    justify-content: space-evenly;
+	grid-template-columns: 120px 1fr 
 }
 
-
-main {
-
-    max-width: 900px;
-    padding-top: 200px;
-    background-color: aliceblue;
-    justify-items: left;
-    border: ridge;
-    padding: 200px 20px 200px;
-
-    
-
-}
-header {
-    display: flex;
-    position: absolute;
-    margin: 30px;
-    
-   
-}
-
-nav{
-   
+nav {
+    display: flex; 
     align-items: center;
-    align-content: center;
-    text-decoration: none;
     font-size: 30px;
-    padding-left: 20px ;
-
+    margin: 50px;
+    margin-left: 90px;
+    box-decoration-break: slice;
+    justify-content: space-evenly; 
 }
 
-a {
-    text-decoration: none;
-    color: blue;
+header {
+    border-style: ridge;
+    background-color: #CAF2EA;
 }
 
-h1 {
+div {
+    border-style: ridge;
+}
+
+.hero img :first-child{
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    width: fit-content;
+}
+.text {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(63, 59, 53);
-    margin: 0px;
+    margin: 20px 0px;
     text-align: left;
+    font-size: 30px;
+    border: none;
+    font-weight: bold;
     
 }
-
-h2{
+.text2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 60px;
     margin: 0px;
-   
+    border: none;
+    font-weight: bold;
 }
+
+article img {
+    float: left;
+    padding: 10px;
+    background-color: rgba(238, 240, 231, 0.9);
+    text-align: left;
+    position: absolute;
+    top: 390px;
+    padding-left: 0px;
+    padding-right: 1000px;
+    left: 680px;
+    border: ridge;
+}
+
+
+
+
+h1 {
+    font: var(--heading-font);
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgba(246, 247, 206, 0.9);
+    top: 200px;
+    left: 100px;
+    position: absolute;
+    padding-left: 590px;
+    padding-right: 590px;
+    
+}
+
+article p {
+    float: left;
+    position: relative;
+    background-color: rgba(226, 66, 66, 0);
+    font-size: 2rem;
+    top: 30px;
+    color: rgb(8, 8, 8);
+    padding-left: 1px;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* Section Styles */
+section {
+    border: ridge;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+}
+
+section figure {
+    display: inline-block;
+    margin: 50px 90px;
+    
+    
+}
+
+  figcaption {
+    text-align: center;
+    width: 150px;
+
+  }
+
+h2 {
+    font: var(--heading-font);
+    font-size: 3rem;
+    color: rgb(7, 6, 5);
+    text-align: center; 
+}
+
+
+/* Footer Styles */
+footer {
+    border: ridge;
+    
+}
+
+footer p {
+    text-align: center;
+    font-size: 30px;
+ 
+}
+footer img {
+    position: relative;
+    bottom: 100px;
+    right: 1px;
+}
+.sociallinks {
+    justify-content: right;
+    
+    
+    
+}
+
 
 div {
     display: flex;
@@ -76,30 +182,112 @@ div {
 }
 
 
-figure {
-    display: inline;
-    
-    
-}
-figcaption { 
-    display: inline-flex;
-    
-}
 .form{
-    
+    display: block;
     align-items: center;
     align-content: center;
+    align-self: center;
     background-color: rgb(157, 187, 201);
     margin: 10px 160px 10px ;
+    justify-self: center;
  
     
 }
 button {
     
-    background: rgb(103, 100, 245);
+    background: rgb(125, 152, 241);
     color: aliceblue;
     padding: 10px ;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left: 23%;
+    margin-top: 10px;
     
 
 } 
 
+.flex  {
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    padding: 50px 0px 50px;
+    
+}
+
+input {
+    border: ridge;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(121, 123, 253);
+}
+.box {
+    width: auto;
+    position: relative;
+    align-items: center;
+}
+
+.select-menu {
+    width: 380px;
+    margin: 150px auto;
+}
+
+.select-menu .select-btn {
+    display: flex;
+    height: 55px;
+    background: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+
+}
+
+.select-btn i {
+    font-size: 25px;
+
+}
+
+.select-menu .options {
+    position: relative;
+    
+    
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+}
+.select-menu {
+    top: 100px;
+}
+.options .option {
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+
+}
+
+.options .option:hover {
+    background: #f2f2f2;
+}
+
+.option i {
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.option .option-text {
+    font-size: 18px;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+}
